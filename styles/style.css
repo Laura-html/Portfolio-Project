@@ -29,11 +29,53 @@ p {
   margin-bottom: 20px;
 }
 
-.branding {
+.hero button {
   border-radius: 4px;
   background: #6c63ff;
+  border: #6c63ff 1px solid;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.content-title {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.project-list h2 {
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.project-list p {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: #272142;
+  opacity: 0.7;
+}
+
+.project-list button {
+  border-radius: 4px;
+  border: #6c63ff 1px solid;
+  background: white;
+  color: #6c63ff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .project-list h2 {
+    font-size: 40px;
+  }
+  .container {
+    padding: 0;
+    text-align: center;
+  }
 }
