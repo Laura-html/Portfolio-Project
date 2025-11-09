@@ -1,3 +1,39 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .hero {
   background: #f9f7fe;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.branding {
+  border-radius: 4px;
+  background: #6c63ff;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
