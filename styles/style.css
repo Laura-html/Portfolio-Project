@@ -67,26 +67,6 @@ p {
   padding: 15px 30px;
 }
 
-@media (max-width: 900px) {
-  .hero h1 {
-    font-size: 60px;
-  }
-  .project-list h2 {
-    font-size: 40px;
-  }
-  .container {
-    padding: 0;
-    text-align: center;
-  }
-  .about h1 {
-    font-size: 20px;
-  }
-  .work-title {
-    font-size: 20px;
-    text-align: center;
-  }
-}
-
 .about {
   padding: 160px 20px;
 }
@@ -180,4 +160,30 @@ p {
   text-decoration: underline;
   cursor: pointer;
   margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .project-list h2 {
+    font-size: 40px;
+  }
+  .container {
+    padding: 0;
+    text-align: center;
+  }
+  .about h1 {
+    font-size: 20px;
+  }
+  .work-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .contact h1 {
+    font-size: 44px;
+  }
 }
