@@ -81,6 +81,10 @@ p {
   .about h1 {
     font-size: 20px;
   }
+  .work-title {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
 .about {
@@ -126,10 +130,25 @@ p {
   margin-top: 20px;
 }
 .work-title {
-  font-size: 64px;
+  font-size: 90px;
   line-height: 80px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  padding: 160px 20px;
-  margin-bottom: 10px;
+  padding: 120px 10px;
+  margin-bottom: 5px;
+}
+
+.picture-display h2 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.picture-display p {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 50px;
 }
