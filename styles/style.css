@@ -271,4 +271,15 @@ footer .contact-box {
   .contact h1 {
     font-size: 44px;
   }
+  .contact-box h3 {
+    font-size: 26px;
+  }
+  .contact-box button {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 5px 15px;
+  }
+  footer .contact-box {
+    padding: 30px;
+  }
 }
