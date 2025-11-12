@@ -215,7 +215,36 @@ footer {
 .socials img {
   margin-top: 20px;
   max-height: 40px;
-  padding: 5px;
+  padding: 10px;
+}
+
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 30px 120px;
+  margin-top: 120px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.contact-box h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+.contact-box p {
+  font-family: "Times New Roman", Times, serif;
+  opacity: 80%;
+  margin: 0;
+}
+
+.contact-box button {
+  border-radius: 4px;
+  background: #6c63ff;
+  border: #6c63ff 1px solid;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 @media (max-width: 900px) {
